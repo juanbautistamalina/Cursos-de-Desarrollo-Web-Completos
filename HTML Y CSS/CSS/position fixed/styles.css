@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+}
+
+.notification{
+    box-shadow: 0 0 10px 3px #666;
+    background-color: #27323A;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    width: 210px;
+    height: 60px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.notification__title{
+    font-size: 1em;
+    text-align: center;
+    margin: 5px;
+}
+
+.notification__text{
+    font-size: 12px;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.text__link{
+    font-weight: bold;
+    color: #48e;
+}
+
+
+
+

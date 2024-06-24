@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background: #ff6961;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.box1:hover{
+    border: 2px solid #000;;
+}
+
+
+
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background: #84b6f4;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.box2:hover{
+    outline: 2px solid #000;
+}
+
+
+

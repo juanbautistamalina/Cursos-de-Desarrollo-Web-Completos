@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    background: #000;
+    color: #fff;;
+    padding: 5px;
+}
+
+ul{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+
+li{
+    padding: 2px;
+    color: tomato;
+}
+
+
+.parrafo1{
+    color: #47e;
+    padding: 5px;
+}
+
+.parrafo2{
+    color: #910;
+    padding: 5px;
+}
+
+img[src = "coffe.png"]{
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+.ul_list{
+    text-align: center;
+    width: 300px;
+}
+
+ul > a{
+    color: #48e;
+    font-size: 1.5em;
+    margin: auto;
+    
+}
+
+h1 + p{
+    background-color: #666;
+    color: #fff !important;
+    padding: 10px !important;
+    border-radius: 2px;
+}

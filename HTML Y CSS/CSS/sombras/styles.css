@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(#CCD6A6, #F7EDDB);
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    background: #aaa8;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 40px 0 #0007;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h2{
+    color: #444f;
+    text-shadow: 3px 5px 1px #aaaf;
+}
+
+p{
+    text-shadow: 2px 2px 1px #e808;
+    padding: 10px;
+    text-align: justify;
+    margin-top: 50px;
+}

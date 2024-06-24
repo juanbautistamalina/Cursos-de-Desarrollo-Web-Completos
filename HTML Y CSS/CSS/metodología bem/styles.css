@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(#04322E, #C93D1B);
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+.lista{
+    text-align: left;
+    list-style-type: none;
+    width: 140px;
+    height: 180px;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+    line-height: 1.5em;
+}
+
+.lista__item{
+    font-weight: bold;
+    color: #48e;
+    padding: 5px;
+}
+
+.item--faltante{
+    color: #DC0316 ;
+}
+
+.item--faltante::after{
+    content: " (FALTA)";
+}
+
+.item--especial{
+    color: #166C3B;
+    font-style: italic;
+
+}

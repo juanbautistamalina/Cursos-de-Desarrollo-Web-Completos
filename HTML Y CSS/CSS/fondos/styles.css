@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(#FFBD35, #3FA796, #8267BE);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.box{
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("https://wallpapers.com/images/featured/australia-5pzma85n2bzh94eh.jpg");
+}

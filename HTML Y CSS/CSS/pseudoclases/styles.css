@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    width: 150px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    margin: 50px;
+    color: #922;
+}
+
+/* CUANDO SE PASA EL MOUSE POR ENCIMA */
+h1:hover{
+    background: #000;
+    color: #fff;
+}
+
+/* CUANDO EL MOUSE HACE CLICK ENCIMA DEL ELEMENTO */
+h1:active{
+    background-color: #777;
+    color: #1f6;
+    border-radius: 10px;
+}
+
+/* SELECCIONAR EL PRIMER ELEMENTO (DE VARIOS IGUALES) */
+li:first-child{
+    color: #f00;
+    font-size: 1.5em;
+}
+
+/* SELECCIONAR EL ÚLTIMO ELEMENTO (DE VARIOS IGUALES) */
+li:last-child{
+    color: #066;
+    font-size: 1.5em;
+}
+
+/* SELECCIONAR A UN ELEMENTO X (DE VARIOS IGUALES */
+li:nth-child(3){
+    color: #2f4;
+    font-size: 1.5em;
+}
+
+ul{
+    margin-bottom: 50px;
+}
+
+input{
+    font-weight: 600;
+}
+
+
+label:has(input:valid), input:valid{
+    color: greenyellow;
+}
+
+label:has(input:invalid), input:invalid{
+    color: #922;
+}

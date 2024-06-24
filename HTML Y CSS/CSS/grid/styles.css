@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.grid{
+    background-color: #455;
+    display: grid;
+    height: 80vh;
+    grid-template-columns: repeat(2, minmax(100px, 200px)) 1fr;
+    grid-template-rows: repeat(2, 1fr) 100px;
+    grid-auto-rows: 85px;
+    gap: 10px;
+    padding: 10px; 
+    /* grid-auto-flow: column; */
+}
+
+.grid-item{
+    border-radius: 10px;
+    background-color: #f55;
+    padding: 10px;
+    /* margin: 10px; */
+    font-size: 30px;
+    color: #fff;
+}

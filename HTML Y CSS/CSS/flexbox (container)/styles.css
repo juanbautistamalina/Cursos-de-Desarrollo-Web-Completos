@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 0 0 8px #d34;
+}
+
+.flex-item{
+    background: #f23;
+    width: 100px;
+    /* height: 100px; */
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.flex-item:first-child{
+    background: #d34;
+}
+
+.flex-item:last-child{
+    background: #faa;
+}
+
+
+.flexbox{
+    background-color: #999;
+    margin: 50px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    /* flex-flow: row wrap; */
+    border: 2px solid #000;
+    overflow: auto;
+}

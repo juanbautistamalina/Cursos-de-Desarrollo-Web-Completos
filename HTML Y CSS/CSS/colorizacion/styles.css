@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(#87805E, #B09B71);
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #EBE3D5;
+}
+
+
+.card{
+    width: 150px;
+    height: 150px;
+    background: #49e;
+    margin: 60px auto;
+    box-sizing: border-box;
+    border-top: 5px solid #55f;
+    border-left: 5px solid #55f;
+}
+
+h2{
+    text-align: center;
+    padding-top: 30px;
+    color:  #51a;
+    font-family: sans-serif;
+}
+

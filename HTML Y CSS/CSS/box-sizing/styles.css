@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(#FEAE6F, #799351);
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+h1{
+    font-size: 2.3em;
+    text-shadow: 0 0 8px #97BE5A;
+    text-align: center;
+}
+
+
+
+.box{
+    background-color: #97BE5A;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.box-default{
+    box-sizing: content-box;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.box-edit{
+    box-sizing: border-box;
+    border: 5px solid black;
+    padding: 10px;
+}

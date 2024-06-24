@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+/* MODIFICAR LA PRIMERA LETRA */
+div p::first-letter{
+    font-size: 3em;
+    color: #406;
+}
+
+/* MODIFICAR LA PRIMER LÍNEA DE UN PÁRRAFO */
+div p::first-line{
+    color: red;
+}
+
+/* MODIFICAR LA SELECCIÓN (MOUSE) */
+h1::selection{
+    background-color: #000;
+    color: #4f6a;
+}
+
+/* MODIFICAR EL PLACERHOLDER */
+input::placeholder{
+    font-weight: 600;
+    color: #7c3;
+    font-size: 1.1em;
+}
+
+input{
+    color: #fff;
+    background:black;
+    border: 2px solid #7c3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+label{
+    font-weight: 600;
+}
