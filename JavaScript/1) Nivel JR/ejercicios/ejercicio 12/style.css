@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+    color: #000;
+    background: #000
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.flex-item{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.flex-item p b{
+    color: #1a7;
+}
+
+.flex-item:hover{
+    outline: 3px solid #1a7;
+    opacity: 0.7;
+}
+
+
+.flex-item:focus{
+    outline: 3px solid #1a7;
+    opacity: 0.7;
+}
+
+
+form{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.boton{
+    letter-spacing: 2px;
+    padding: 10px;
+    width: 200px;
+    background-color: #1a7;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    transition: border-radius .3s ease-in-out;
+}
+
+.boton:hover{
+    opacity: 0.5;
+    border-radius: 0;
+}
