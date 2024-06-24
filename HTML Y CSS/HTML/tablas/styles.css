@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+td, th{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+
+td {
+    color: #666;
+}
+
+table{
+   
+    width: 100%;
+    border-spacing: 12px;
+    max-width: 600px;
+    box-shadow: 0 0 10px 1px #222;
+    margin: auto; 
+    margin-top: 40px;
+}
+
+.total, .valor_total{
+    padding: 15px;
+    border: none;
+}
+
+.total{
+    font-size: 1.3em;
+}
+

@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 2em;
+}
+
+
+img{
+    margin: 0 200px;
+    max-width: 300px;
+    border-radius: 10px;
+}

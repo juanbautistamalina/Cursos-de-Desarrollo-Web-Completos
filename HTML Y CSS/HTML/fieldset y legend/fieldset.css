@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #222;
+    color: white;
+}
+
+.form{
+    background-color: transparent;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 20px 10px #000a;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+
+
+input, textarea, select{
+    font-size: 1em;
+    box-sizing: border-box;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff2;
+    background: transparent;
+    margin-top: 0.50em;
+    margin: 8px 0;
+}
+
+
+label{
+    font-size: 1em;
+}
+
+
+fieldset{
+    margin: 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+legend{
+    padding: 0 5px;
+}

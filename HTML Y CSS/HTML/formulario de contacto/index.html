@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form class="form">
+        <h1>Formulario de Contacto</h1>
+
+        <fieldset>
+            <legend>INFORMACIÓN BÁSICA</legend>
+            <div class="form_input">
+                <label>Nombre Completo
+                    <input type="text" placeholder="John Doe">
+                </label>
+            </div>
+
+            <div class="form_input">
+                <label>Email
+                    <input type="email" placeholder="ejemplo@gmail.com">
+                </label>
+            </div>
+
+            <div class="form_input">
+                <label>Asunto
+                    <input type="text" placeholder="El asunto de tu mensaje">
+                </label>
+            </div>
+        </fieldset>
+
+       
+        <div class="form_input">
+            <label>Seleccioná una Opción
+                <select>
+                    <option value="">Opción 1</option>
+                    <option value="">Opción 2</option>
+                    <option value="">Opción 3</option>
+                </select>
+            </label>
+        </div>
+
+
+        <div class="form_textarea">
+            <label>Comentario
+                <textarea placeholder="Ingresa un mensaje"></textarea>
+            </label>
+        </div>
+
+
+        <div class="form_input">
+            <label>¿Cómo nos descubriste?
+                <input list="referente">
+                <datalist id="referente">
+                    <option value="Un amigo"></option>
+                    <option value="Redes Sociales"></option>
+                    <option value="Otros"></option>
+                </datalist>
+            </label>
+        </div>
+
+        <div class="form_input">
+            <label>Acepto los Términos y Condiciones
+                <input type="checkbox" class="form_input_checkbox">
+            </label>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
