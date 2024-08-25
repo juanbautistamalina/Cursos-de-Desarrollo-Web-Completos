@@ -1,0 +1,54 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    background: #3ae4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn1, .btn2, .btn3{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+
+h2 span{
+    background: yellow;
+    text-decoration: underline;
+}
+/* ------- */
+
+.red-container{
+    background: red;
+    padding: 20px;
+}
+
+.blue-container{
+    background: blue;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------ */
+
+.orange-container{
+    padding: 20px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+}
