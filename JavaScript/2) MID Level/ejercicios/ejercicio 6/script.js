@@ -40,7 +40,7 @@ function obtenerMateria(id){
    })
 }
 
-// obtenerMateria(0).then(resultado => console.log(resultado));
+
 
 const devolverMaterias = async ()=>{
    let materia = [];
