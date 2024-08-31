@@ -1,0 +1,4 @@
+{
+    "aprobados" : 2567,
+    "desaprobados" : 589
+}

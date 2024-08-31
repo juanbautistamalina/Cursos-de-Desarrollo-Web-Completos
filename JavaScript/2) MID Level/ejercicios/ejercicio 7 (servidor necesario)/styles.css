@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#getInfo{
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+    font-weight: 600;
+}
